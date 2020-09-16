@@ -1,0 +1,442 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1400px;
+       
+}
+p{
+    color:rgba(0,0,0,.6)
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+.navbar{
+    height: 80px;
+   position: relative;
+    
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-family: 'Metal Mania', cursive;
+    color: orangered;
+  
+    width: 190px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.nav-item{
+    
+    margin-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-family: 'Changa', sans-serif;
+
+}
+
+
+.main{
+    background-color: #dfdfdf;
+}
+.maincon{
+    padding-top: 150px;
+    padding-left: 130px;
+}
+.maincon h6{
+    color: rgba(0,0,0,.7);
+    font-family: 'Poppins', sans-serif;
+}
+.maincon h1{
+    letter-spacing: 2px;
+   font-family: 'Alfa Slab One', cursive;
+
+}
+.maincon p{
+    
+    padding-top:15px;
+    font-family: 'Changa', sans-serif
+}
+.maincon .btn{
+    border-radius: 8px;
+    color:black;
+    font-family: 'Acme', sans-serif;
+    background-color: orangered;
+}
+/*main media start here*/
+@media only screen and (max-width:760px){
+    .maincon h6,.maincon p{
+        color: white;
+    }
+    .maincon{
+            
+         background: url("../images/gymmobile.jpg")
+             center center fixed;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        padding:70px 30px;
+        position: static;
+
+
+    }
+    .mainimg{
+         display: none;
+    }
+    .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-family: 'Changa', sans-serif;
+    background-color: white;
+    padding-left: 60px;
+}
+}
+/*main media end here*/
+
+blockquote{
+    text-align: center;
+    height: 100px;
+    padding: 50px 20%; 
+    background-color:#fff;
+    font-family: 'Stylish', sans-serif;
+    font-size: 20px;
+    color: rgba(0,0,0,.5);
+    padding-bottom: 80px;
+}
+@media only screen and (max-width:760px){
+    blockquote{
+        height: 220px;
+        padding: 50px 8px
+    }
+}
+/*blockqouote media end*/
+
+
+
+.features{
+     padding:10px 170px;
+    background-color:#f4f4f4;
+   
+}
+hr{
+    background-color:orangered;
+}
+
+.features .head1 h1{
+    font-family: 'Alfa Slab One', cursive;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin: 0 auto;
+    color:rgba(0,0,0,.9)
+    
+}
+
+
+
+.sec1{
+    padding-top: 60px;
+    
+}
+.sec1 h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    padding-top: 100px;
+     letter-spacing: 2px;
+}
+.sec1 p{
+    font-family: 'Poppins', sans-serif;
+  
+}
+.con1{
+    padding-left: 130px;
+}
+
+
+
+.sec2{
+
+}
+.sec2 h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    padding-top: 150px;
+     letter-spacing: 2px;
+}
+.sec2 p{
+    font-family: 'Poppins', sans-serif;
+}
+.con2{
+
+}
+
+
+
+
+.sec3{
+    padding-top: 40px;
+}
+.sec3 h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    padding-top: 100px;
+     letter-spacing: 2px;
+}
+.sec3 p{
+    font-family: 'Poppins', sans-serif;
+}
+.con3{
+
+    padding-left: 130px;
+}
+
+/*features media start here*/
+@media only screen and (max-width:760px){
+.features{
+    width: 100%;
+     padding:10px 20px;
+    background-color:#f4f4f4;
+   
+}      
+.sec1{
+    padding-top: 20px;
+    
+}
+.sec1 h2{
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    padding-top: 20px;
+     letter-spacing: 2px;
+    padding-left: 0px;
+}
+.con1{
+    padding-left: 10px;
+}
+.sec1 img{
+        width: 100%;
+        height: auto;
+        margin-left: -20px;
+}      
+.sec2{
+    padding-top: 20px;
+    
+}
+.sec2 h2{
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    padding-top: 20px;
+     letter-spacing: 2px;
+    padding-left: 0px;
+}
+.con2{
+    padding-left: 10px;
+}
+.sec2 img{
+        width: 100%;
+        height: auto;
+        margin-left: -20px;
+    }    
+.sec3{
+    padding-top: 20px;
+    
+}
+.sec3 h2{
+    width: 100%;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    padding-top: 20px;
+     letter-spacing: 2px;
+    padding-left: 0px;
+}
+.con3{
+    padding-left: 10px;
+}
+    .sec3 img{
+        width: 100%;
+        height: auto;
+        margin-left: -20px;
+    }
+}
+/*features media end here*/
+
+
+.packages{
+    background-color: #fff;
+    padding: 0 240px;
+    text-align: justify;
+    padding-bottom: 70px;
+}
+
+
+.pacheading h1{
+    margin: 0 auto;
+     font-family: 'Alfa Slab One', cursive;
+    padding: 70px 40px;
+    
+}
+
+.card{
+    border-radius: 11px;
+    background-color: #fbfbfb;
+}
+.card-title{
+    font-family: 'Marko One', serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-body hr{
+    border: 3px solid orangered;
+}
+.cardul li{
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 1000;
+}
+.card-link{
+      margin-left: 35%; 
+     font-family: 'Acme', sans-serif;
+    }
+.inpac{
+    text-decoration: line-through;
+    color: rgba(0,0,0,.5)
+}
+@media only screen and (max-width:760px){
+    .packages{
+    background-color: #fff;
+    padding: 0 10px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+.pacheading h1{
+    margin: 0 auto;
+     font-family: 'Alfa Slab One', cursive;
+    padding: 70px 10px;
+    
+}
+.card{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 7px;
+
+}
+.card-title{
+    font-family: 'Marko One', serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-body hr{
+    border: 1px solid orangered;
+}
+.cardul li{
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 1000;
+}
+.card-link{
+      margin-left: 42px;; 
+     font-family: 'Acme', sans-serif;
+    }
+.inpac{
+    text-decoration: line-through;
+    color: rgba(0,0,0,.5)
+}
+}
+/*packages media end here*/
+
+
+
+
+
+
+.contact{
+    padding-bottom: 50px;
+}
+.contact a{
+    font-size:20px;
+    padding: 0 130px;
+    color: rgba(0,0,0,.7);
+   
+}
+.contact .fa-facebook:hover{
+    color: #3B579D;
+    font-size: 25px;
+     transition: 0.9s;
+}
+.contact .fa-youtube:hover{
+    color: #E7291C;
+    font-size: 25px;
+     transition: 0.9s;
+}
+.contact .fa-twitter:hover{
+    color: #2CAAE1;
+    font-size: 25px;
+     transition: 0.3s;
+}
+footer{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.contact h1{
+     font-family: 'Alfa Slab One', cursive;
+    padding:70px;
+    font-size: 30px;
+    color:rgba(0,0,0,.6)
+
+    
+}
+.contact img{
+    height: 160px;
+    margin: 80px 10%;
+    
+}
+
+
+
+
+.contact{
+    text-align: center;
+    background-color: #f4efef;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
